@@ -1,0 +1,55 @@
+#navbar{
+    padding: 16px;
+    margin-top: none;
+}
+a{
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+main{
+    background-color: lightcoral;
+    height: 1000px;
+    margin-top: none;
+}
+#intro-h1{
+    color: lightcoral;
+    text-align: center;
+}
+body{
+    background-color: lightcoral;
+}
+#medal{
+    display: flex;
+    justify-items: flex-end;
+}
+footer{
+    padding: 16px;
+    margin-top: none;
+}
+@media only screen and (max-width: 1000px) {
+    #Jumbo-1{
+        width: 90%;
+        height: 70%;
+    }
+    .album{
+        flex-direction: column;
+    }
+    .album-img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+    }
+    #medal{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1280px) and (min-width: 700px) {
+    #navbar{
+        width: 100%;
+    }
+}
+@media screen and (max-width) {
+    
+}
